@@ -56,7 +56,7 @@ const WeeklyCalendar: React.FC= () => {
         <tbody className={tBody}>
           {weeks.map((week, weekIndex) => (
             <tr key={weekIndex}>
-              {week.map((day) => (
+              {week.map((day:any) => (
                 <td key={day.toISOString()} className={dayBox}>
                     <p>{format(day, 'd')}</p>
                     {format(day, 'd')==="1" &&<Lesson variant={1}/>}
