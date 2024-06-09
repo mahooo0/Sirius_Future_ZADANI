@@ -47,7 +47,7 @@ function NavEL(props:Props) {
                     Onclick()
                     
                     }}>
-                        {isACtive?<img src={ActiveCalendar} alt="" />:<CalendarIcon isActive={isACtive} className={icon} />}
+                        {isACtive?<img src={ActiveCalendar} className={icon} alt="" />:<CalendarIcon isActive={isACtive} className={icon} />}
                    
                   <h4 className={isACtive?titleACtive:titleDeACtive}>{Title}</h4>
                 </div>

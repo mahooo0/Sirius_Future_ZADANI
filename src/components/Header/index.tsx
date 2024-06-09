@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import 'reset-css';
+
 import Style from '../Header/header.module.css'
 import ChatIcon  from '../../img/svg/chat.svg'
 import mixailIcon  from '../../img/svg/mixail.svg'
@@ -9,6 +11,7 @@ import CloseIcon  from '../../img/svg/X.svg'
 import TriangleIcon  from '../../img/svg/Triangle.svg'
 import { useNavigate } from 'react-router-dom';
 function Header() {
+
     let navidate=useNavigate()
     const {Header,IconDiv,Title,Span,userDiv,user,userbtn,line,ActiveUser,Close,traingle} =Style
     let [User,setUser]=useState(true)

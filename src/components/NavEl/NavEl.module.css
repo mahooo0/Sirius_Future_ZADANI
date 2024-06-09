@@ -2,13 +2,13 @@
 
 .Div{
     height: 40px;
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-direction: row;
    align-items: center;
    gap: 8px;
 
-padding: 0px 0px 0px 44px;
+
  cursor: pointer;
 
 
@@ -21,6 +21,7 @@ padding: 0px 0px 0px 44px;
 .icon{
     width: 28px;
     height: 28px;
+    margin-left: 44px;
 }
 .titleACtive{
     font-family: Circe Rounded;

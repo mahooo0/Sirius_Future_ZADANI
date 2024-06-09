@@ -35,7 +35,7 @@ height: 100%;
 }
 .dayBox{
     width: 14%;
-height: 91px;
+height: 88px;
 padding: 4px 2px 2px 2px;
 
 border: 1px solid #ECECEC;
@@ -74,15 +74,18 @@ border: solid 1px #8D7FC7;
 }
 .SwiperSEction{
 
-    width: 100%;
+    width: fit-content;
     display: flex;
     flex-direction: row;
-    padding: 27px 50px 0 32px;
+    /* padding: 27px 50px 0 32px; */
+    margin-top: 27px;
+    margin-left: 32px;
     gap: 32px;
     align-items: center;
 
 }
 .SwiperSEction div{
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -96,4 +99,7 @@ font-weight: 700;
 line-height: 20px;
 text-align: left;
 color: #323854;
+}
+.SwiperSEction button{
+    background: none;
 }

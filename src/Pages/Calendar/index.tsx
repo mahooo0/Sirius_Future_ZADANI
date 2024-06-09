@@ -6,7 +6,7 @@ import QuestionsIcon from '../../img/CustemSvg/Questions';
 import WeeklyCalendar from '../../components/Calendar';
 function Calendar() {
    
-    const {body,HeaderButtom,Sellect,SwiperSEction,tuday,icon}=Style
+    const {body,HeaderButtom,Sellect,Sellect_option,tuday,icon}=Style
     
     return (
         
@@ -15,10 +15,10 @@ function Calendar() {
             <div className={body}>
                 <div className={HeaderButtom}>
                 <select  className={Sellect}>
-                    <option >Выбрать предмет</option>
-                    <option >variant1</option>
-                    <option >variant2</option>
-                    <option >variant3</option>
+                    <option className={Sellect_option} >Выбрать предмет</option>
+                    <option className={Sellect_option} >variant1</option>
+                    <option className={Sellect_option} >variant2</option>
+                    <option className={Sellect_option} >variant3</option>
                 </select>
                     <button>Изменить расписание</button>
                 </div>

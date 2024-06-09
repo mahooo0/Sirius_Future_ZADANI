@@ -3,6 +3,8 @@ import style from '../Aside/Aside.module.css'
 import Logo from '../../img/svg/Logo.svg'
 import Gift from '../../img/svg/gift.svg'
 import NavEL from '../NavEl';
+import 'reset-css';
+
 import Icons from '../../Constant/Icons';
 import { useNavigate, useParams } from 'react-router-dom';
 function Aside({active}:any) {

@@ -11,12 +11,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 22px 50px 0 32px;
+    /* padding: 22px 50px 0 32px; */
+    margin-top: 22px;
 }
 .Sellect{
+    margin-left: 32px;
+    color:#79747F ;
     width: 253px;
 height: 36px;
-
+background: none;
 gap: 0px;
 border-radius: 8px;
 border: 1px solid rgba(236, 236, 236, 1) ;
@@ -24,19 +27,20 @@ border: 1px solid rgba(236, 236, 236, 1) ;
 display: flex;
 opacity: 0px;
 align-items: center;
-
+padding: 5px;
 }
-.Sellect option{
+.Sellect_option{
 
 font-family: Circe Rounded;
 font-size: 12px;
 font-weight: 400;
 line-height: 16.2px;
 text-align: left;
-color: 
-#79747F;
+color: #79747F;
 }
 .HeaderButtom button{
+    margin-right: 50px;
+    border: none;
     width:344px;
 height:40px;
 padding: 10px 40px 10px 40px;

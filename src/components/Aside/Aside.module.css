@@ -2,7 +2,7 @@
 
 .Aside{
     width: 20%;
-    height: 95%;
+    
     background: #EEEEFF;
 margin-top: 24px;
 margin-left: 50px;
@@ -68,7 +68,7 @@ gap: 10px;
 border-radius: 15px ;
 opacity: 0px;
 background-color: #D8ECFF;
-
+border: none;
 font-family: Circe Rounded;
 font-size: 12px;
 font-weight: 400;

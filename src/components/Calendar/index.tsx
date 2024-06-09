@@ -31,9 +31,9 @@ const WeeklyCalendar: React.FC= () => {
 <>
 <div className={SwiperSEction}>
                 <div>
-                    <button onClick={() => setCurrentWeek(addWeeks(currentWeek, -1))}><img src={StrelkaIcon} alt="" style={{rotate:'180deg'}}  /></button>
+                    <button onClick={() => setCurrentWeek(addWeeks(currentWeek, -1))} style={{border:"none"}}><img src={StrelkaIcon} alt="" style={{rotate:'180deg'}}  /></button>
                     <h3>{format(startOfCurrentWeek, 'MMMM yyyy', { locale: ru })}</h3>
-                    <button onClick={() => setCurrentWeek(addWeeks(currentWeek, 1))}><img src={StrelkaIcon} alt="" /></button>
+                    <button onClick={() => setCurrentWeek(addWeeks(currentWeek, 1))} style={{border:"none"}}><img src={StrelkaIcon} alt="" /></button>
                 </div>
                 <div>
                     <button className={tuday}>Сегодня</button>
